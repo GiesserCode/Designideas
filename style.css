@@ -274,11 +274,13 @@ button:hover::before {
     .circle {
         width: 200px;
         height: 200px;
+        animation: none;
     }
 
     .border_circle {
         width: 200px;
         height: 200px;
+        animation: none;
     }
 
     .name {
