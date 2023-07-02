@@ -11,3 +11,7 @@ function sticky() {
 function snap() {
     open("./snapscroll/snap.html", "_self")
 }
+
+function carussel() {
+    open("./carussel/carussel.html", "_self")
+}
