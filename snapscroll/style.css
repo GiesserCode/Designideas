@@ -52,18 +52,7 @@ section {
     color: white;
     scroll-snap-align: start;
     z-index: -1;
-}
-
-section:nth-of-type(1) {
-    background-color: #3a3;
-}
-
-section:nth-of-type(2) {
-    background-color: #a33;
-}
-
-section:nth-of-type(3) {
-    background-color: #33a;
+    background-color: #090909;
 }
 
 h3 {
@@ -72,4 +61,17 @@ h3 {
 
 p {
     font-size: 1.2em;
+}
+
+.side {
+    width: 500px;
+}
+
+.img {
+    background-image: url('./DALL·E\ 2023-07-02\ 21.53.41\ -\ a\ fast\ car\,\ looks\ dangerous\,\ black\ background\,\ high\ quality\,\ high\ resolution\,\ advertisment\,\ whitespace\,\ dark\,\ aggressive\,\ photoshoot\,\ studio\,\ no\ road\,.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    transform: translateX(7em);
+    z-index: -1;
 }

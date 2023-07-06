@@ -15,3 +15,7 @@ function snap() {
 function carussel() {
     open("./carussel/carussel.html", "_self")
 }
+
+function link(link) {
+    open(link, "_self")
+}
